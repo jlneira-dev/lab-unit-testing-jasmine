@@ -8,7 +8,7 @@ describe("Iteration 3", () => {
         it("should take two numbers as arguments", () => {
             expect(calculateArea.length).toBe(2);
         });
-        it("should return the division of the two numbers", () => {
+        it("should return the area of the rectangle by multiplying the two numbers", () => {
             expect(calculateArea(1, 2)).toEqual(2);
             expect(calculateArea(100, 2)).toEqual(200);
             expect(calculateArea(150, 30)).toEqual(4500);
